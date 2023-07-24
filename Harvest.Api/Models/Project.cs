@@ -16,6 +16,7 @@ namespace Harvest.Api
         public decimal? HourlyRate { get; set; }
         public decimal? Budget { get; set; }
         public string BudgetBy { get; set; }
+        public bool BudgetIsMonthly { get; set; }
         public bool NotifyWhenOverBudget { get; set; }
         public decimal OverBudgetNotificationPercentage { get; set; }
         public DateTime? OverBudgetNotificationDate { get; set; }
